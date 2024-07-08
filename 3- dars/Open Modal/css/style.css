@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(88,100,255);
+    background: linear-gradient(360deg, rgba(88,100,255,1) 40%, rgba(102,225,122,1) 100%);
+}
+
+.modal__wrapper{
+    width: 30rem;
+    border-radius: 1rem;
+    background: white;
+    padding: 1rem;
+}
+
+.imgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.modal__img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+.bi{
+    padding: 6px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.185);
+}
+
+.modal__title{
+    font-size: 2rem;
+}
+
+.modal__text{
+    font-size: 1rem;
+    color: dimgrey;
+    margin: 10px 0;
+    line-height: 1,5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem 0;
+}
+
+.form__input{
+    padding: 0 1rem;
+}
+
+.form__btn{
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+}
+
+.modal__btn{
+    font-size: 1rem;
+    color: white;
+    background: black;
+}
+
+#open{
+    margin-top: 70vh;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
